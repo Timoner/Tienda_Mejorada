@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane pickOnBounds="false" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gasolinera.GasolineraControllerIntro">
+    <children>
+        <Label layoutX="95.0" layoutY="40.0" prefHeight="100.0" prefWidth="391.0" text="Bienvenido como desea pagar: ">
+            <font>
+                <Font name="MV Boli" size="24.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="detallesOrdenes" layoutX="4.0" layoutY="350.0" mnemonicParsing="false" onAction="#detallesOrdenes" prefHeight="40.0" prefWidth="154.0" text="Detalles Ordenes" />
+        <Button fx:id="productos" layoutX="415.0" layoutY="350.0" mnemonicParsing="false" onAction="#productos" prefHeight="40.0" prefWidth="154.0" text="Productos" />
+        <Button fx:id="ordenes" layoutX="198.0" layoutY="350.0" mnemonicParsing="false" onAction="#ordenes" prefHeight="40.0" prefWidth="154.0" text="Ordenes" />
+        <Button fx:id="iventario" layoutX="409.0" layoutY="296.0" mnemonicParsing="false" onAction="#iventario" prefHeight="40.0" prefWidth="154.0" text="Inventario" />
+        <Button fx:id="clientes" layoutX="409.0" layoutY="296.0" mnemonicParsing="false" onAction="#clientes" prefHeight="40.0" prefWidth="154.0" text="Clientes" />
+    </children>
+</AnchorPane>

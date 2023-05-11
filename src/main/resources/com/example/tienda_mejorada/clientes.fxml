@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="465.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.ProductosController">
+    <children>
+        <TableView fx:id="tabla_Cliente" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+            <columns>
+                <TableColumn fx:id="ID_cliente" prefWidth="90.20001524686813" text="ID_cliente" />
+                <TableColumn fx:id="C_nombre" prefWidth="94.5999755859375" text="Nombre" />
+                <TableColumn fx:id="C_apellido" prefWidth="97.60003662109375" text="Apellidos" />
+                <TableColumn fx:id="C_direccion" prefWidth="136.5999755859375" text="Direccion" />
+                <TableColumn fx:id="C_telefono" prefWidth="124.99996948242188" text="Telefono" />
+            <TableColumn fx:id="C_correo" prefWidth="217.4000244140625" text="Correo" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
