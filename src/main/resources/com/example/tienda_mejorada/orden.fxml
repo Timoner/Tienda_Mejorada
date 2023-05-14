@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="456.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.ordenesController">
+    <children>
+        <TableView fx:id="tabla_Orden" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+            <columns>
+                <TableColumn fx:id="O_id" prefWidth="121.39999234676361" text="ID_Orden" />
+                <TableColumn fx:id="ID_cliente" prefWidth="140.19998931884766" text="ID_cliente" />
+                <TableColumn fx:id="O_fecha" prefWidth="155.20001220703125" text="Fecha" />
+                <TableColumn fx:id="O_total" prefWidth="182.99996948242188" text="Total" />
+            </columns>
+        </TableView>
+      <Button fx:id="btDescargar" layoutX="274.0" layoutY="410.0" mnemonicParsing="false" onAction="#descargar" text="Descargar" />
+      <Label layoutX="124.0" layoutY="414.0" text="Descargar la informaciuon:" />
+    </children>
 </AnchorPane>

@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="465.0" prefWidth="785.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.ProductosController">
+<AnchorPane prefHeight="636.0" prefWidth="823.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.ClienteController">
     <children>
         <TableView fx:id="tabla_Cliente" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
             <columns>
@@ -15,5 +15,23 @@
             <TableColumn fx:id="C_correo" prefWidth="217.4000244140625" text="Correo" />
             </columns>
         </TableView>
+        <TextField fx:id="nombreField" layoutX="92.0" layoutY="477.0" />
+        <TextField fx:id="apellidoField" layoutX="92.0" layoutY="507.0" />
+        <TextField fx:id="direccionField" layoutX="92.0" layoutY="537.0" />
+        <TextField fx:id="telefonoField" layoutX="92.0" layoutY="567.0" />
+        <TextField fx:id="correoField" layoutX="92.0" layoutY="597.0" />
+        <Button layoutX="257.0" layoutY="537.0" mnemonicParsing="false" onAction="#agregarPersona" text="Agregar" />
+      <Label layoutX="17.0" layoutY="481.0" text="Nombre" />
+      <Label layoutX="17.0" layoutY="500.0" text="Apellido" />
+      <Label layoutX="17.0" layoutY="541.0" text="Direccion" />
+      <Label layoutX="14.0" layoutY="571.0" text="Telefono" />
+      <Label layoutX="23.0" layoutY="600.0" text="Correo" />
+      <Button layoutX="485.0" layoutY="565.0" mnemonicParsing="false" onAction="#borrarPersona" text="Borrar" />
+      <TextField fx:id="idField" layoutX="384.0" layoutY="529.0" />
+      <Label layoutX="359.0" layoutY="533.0" text="ID:" />
+      <Label layoutX="384.0" layoutY="509.0" text="Borrar clienyte por ID" />
+      <Button fx:id="btDescargar" layoutX="720.0" layoutY="529.0" mnemonicParsing="false" onAction="#descargar" text="Descargar" />
+      <Label layoutX="575.0" layoutY="534.0" text="Descargar la informacion" />
+
     </children>
 </AnchorPane>

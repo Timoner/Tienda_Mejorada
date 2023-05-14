@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="464.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.InventarioController">
+    <children>
+        <TableView fx:id="tabla_Inventario" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+            <columns>
+                <TableColumn fx:id="p_id" prefWidth="186.20001828670502" text="ID_producto" />
+                <TableColumn fx:id="p_nombre" prefWidth="412.9999694824219" text="Cantidad_stock" />
+            </columns>
+        </TableView>
+      <Button fx:id="brDescargar" layoutX="274.0" layoutY="417.0" mnemonicParsing="false" onAction="#descargar" text="Descargar" />
+      <Label layoutX="128.0" layoutY="421.0" text="Descargar la inforamcion: " />
+    </children>
 </AnchorPane>

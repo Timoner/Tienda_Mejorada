@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
-<AnchorPane pickOnBounds="false" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gasolinera.GasolineraControllerIntro">
+<AnchorPane pickOnBounds="false" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tienda_mejorada.ventanaPrincipalController">
     <children>
-        <Label layoutX="95.0" layoutY="40.0" prefHeight="100.0" prefWidth="391.0" text="Bienvenido como desea pagar: ">
-            <font>
-                <Font name="MV Boli" size="24.0" />
-            </font>
-        </Label>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fondo.png" />
+         </image></ImageView>
 
-        <Button fx:id="detallesOrdenes" layoutX="4.0" layoutY="350.0" mnemonicParsing="false" onAction="#detallesOrdenes" prefHeight="40.0" prefWidth="154.0" text="Detalles Ordenes" />
-        <Button fx:id="productos" layoutX="415.0" layoutY="350.0" mnemonicParsing="false" onAction="#productos" prefHeight="40.0" prefWidth="154.0" text="Productos" />
-        <Button fx:id="ordenes" layoutX="198.0" layoutY="350.0" mnemonicParsing="false" onAction="#ordenes" prefHeight="40.0" prefWidth="154.0" text="Ordenes" />
-        <Button fx:id="iventario" layoutX="409.0" layoutY="296.0" mnemonicParsing="false" onAction="#iventario" prefHeight="40.0" prefWidth="154.0" text="Inventario" />
-        <Button fx:id="clientes" layoutX="409.0" layoutY="296.0" mnemonicParsing="false" onAction="#clientes" prefHeight="40.0" prefWidth="154.0" text="Clientes" />
+        <Button fx:id="detallesOrdenes" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" onAction="#detallesOrdenes" prefHeight="40.0" prefWidth="154.0" text="Detalles Ordenes" />
+        <Button fx:id="productos" layoutX="223.0" layoutY="316.0" mnemonicParsing="false" onAction="#productos" prefHeight="40.0" prefWidth="154.0" text="Productos" />
+        <Button fx:id="iventario" layoutX="431.0" layoutY="316.0" mnemonicParsing="false" onAction="#inventario" prefHeight="40.0" prefWidth="154.0" text="Inventario" />
+        <Button fx:id="ordenes" layoutX="18.0" layoutY="316.0" mnemonicParsing="false" onAction="#ordenes" prefHeight="40.0" prefWidth="154.0" text="Ordenes" />
+        <Button fx:id="clientes" layoutX="424.0" layoutY="200.0" mnemonicParsing="false" onAction="#clientes" prefHeight="40.0" prefWidth="154.0" text="Clientes" />
+      <Button fx:id="btCerrar" contentDisplay="BOTTOM" graphicTextGap="6.0" layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#cerrar" text="Cerrar" textOverrun="WORD_ELLIPSIS" />
     </children>
 </AnchorPane>
