@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eef8a00-ade2-454e-8108-40bb976677f7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3eef8a00-ade2-454e-8108-40bb976677f7" name="Changes" comment="Practica final,( Acabada) se puede modificar aun">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Inventario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/InventarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/InventarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Main_Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Main_Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Orden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ProductosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ProductosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/detallesOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/detallesOrden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/detallesOrdenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/detallesOrdenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ordenesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ordenesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ventanaPrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tienda_mejorada/ventanaPrincipalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/clientes.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/clientes.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/detallesOrden.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/detallesOrden.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/inventario.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/inventario.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/orden.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/orden.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/productos.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/productos.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/ventanaPrincipal.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tienda_mejorada/ventanaPrincipal.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +122,18 @@
       <option name="presentableId" value="Default" />
       <updated>1683648533259</updated>
     </task>
+    <task id="LOCAL-00001" summary="Practica final,( Acabada) se puede modificar aun">
+      <created>1684070738835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684070738835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practica final,( Acabada) se puede modificar aun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica final,( Acabada) se puede modificar aun" />
   </component>
 </project>
